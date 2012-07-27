@@ -14,7 +14,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 
 		TextView textView = (TextView) findViewById(R.id.textView);
-		textView.setTextColor(Color.RED);
+		textView.setTextColor(Color.RED); // comment for the forRelease_rebase
 	}
 
 	@Override
